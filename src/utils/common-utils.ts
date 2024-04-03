@@ -16,3 +16,5 @@ export function slugify(input?: string) {
 
     return slug;
 }
+
+export const SITE_URL = 'https://example.com';

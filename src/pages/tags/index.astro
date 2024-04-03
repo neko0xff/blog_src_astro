@@ -14,11 +14,11 @@ const tags = getAllTags(posts).sort((tagA, tagB) => {
 ---
 
 <BaseLayout
-    title="标签"
+    title="標籤"
     description="Explore tag directory for easy navigation and discovery. Find a wide range of topics, articles, and insights organized by tags, making it effortless to locate the content that interests you most."
     showHeader={false}
 >
-    <h1 class="mb-12 text-2xl font-serif italic sm:mb-16 sm:text-4xl">所有标签</h1>
+    <h1 class="mb-12 text-2xl font-serif italic sm:mb-16 sm:text-4xl">所有標籤</h1>
     {
         tags.map((tag) => {
             const postCount = getPostsByTag(posts, tag.slug).length;
@@ -31,7 +31,7 @@ const tags = getAllTags(posts).sort((tagA, tagB) => {
                         <div class="mt-1 text-sm leading-normal">{postCount} 篇文章</div>
                     </div>
                     <div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
-                        查看标签归档 <ArrowRight class="fill-current w-4 h-4" />
+                        查看標籤歸檔 <ArrowRight class="fill-current w-4 h-4" />
                     </div>
                 </a>
             );

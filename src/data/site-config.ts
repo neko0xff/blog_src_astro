@@ -58,15 +58,15 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    heroTitle: "<span class='name'>Mikan</span>'s Home",
-    title: "Mikan's Home",
+    heroTitle: "<span class='name'>Neko_oxff</span> Tech Blog",
+    title: "Neko0xff Tech Blog",
     avatar: {
         src: "/assets/avatar.jpg",
         alt: "Avatar"
     },
-    author: "Mikan",
-    subtitle: "彩笔懒狗一个",
-    description: '彩笔懒狗一个',
+    author: "neko0xff",
+    subtitle: "該Blog會存放自己寫的技術文章!",
+    description: '該Blog會存放自己寫的技術文章!',
     // image: {
     //     src: '/dante-preview.jpg',
     //     alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -107,7 +107,7 @@ const siteConfig: SiteConfig = {
             href: '/terms'
         },
         {
-            text: 'RSS Feed',
+            text: 'RSS',
             href: '/rss.xml'
         }
         // {
@@ -118,15 +118,23 @@ const siteConfig: SiteConfig = {
     socialLinks: [
         {
             text: 'Instagram',
-            href: 'https://www.instagram.com/aaki_ig?igsh=bjA4M3RncHp3Njhz'
+            href: 'https://www.instagram.com/neko_0xff'
         },
         {
             text: 'X/Twitter',
-            href: 'https://twitter.com/mikan_chn'
+            href: 'https://twitter.com/neko_0xff'
         },
         {
             text: 'GitHub',
-            href: 'https://github.com/mitian233'
+            href: 'https://github.com/neko0xff'
+        },
+        {
+            text: 'Mastdon',
+            href: 'https://mas.to/deck/@neko_0xff'
+        },
+        {
+            text: 'Youtube',
+            href: 'https://www.youtube.com/channel/UCfBR43eCo07mPWN6K-97TEA'
         }
     ],
     personalizedHero: true,
