@@ -61,7 +61,7 @@ const siteConfig: SiteConfig = {
     heroTitle: "<span class='name'>Neko_oxff</span> Tech Blog",
     title: "Neko0xff Tech Blog",
     avatar: {
-        src: "/assets/avatar.jpg",
+        src: "src/assets/img/avatar.jpg",
         alt: "Avatar"
     },
     author: "neko0xff",
