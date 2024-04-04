@@ -28,7 +28,7 @@ onMounted(() => {
 <template>
     <div>
         <div v-if="isLoading">
-            <p class="text-center">戴入中，請稍等……</p>
+            <p class="text-center"> 列表戴入中，請稍等…… </p>
         </div>
         <div v-else class="grid grid-cols-1 gap-3.5 md:grid-cols-2 mb-3">
             <div v-for="(card, index) in links" class="card-hover">
@@ -52,6 +52,7 @@ onMounted(() => {
                 </a>
             </div>
         </div>
+        <br>
         <p class="text-xs text-right">📧:
             <a class="link" href="mailto:chzang55@gmail.com">
                 chzang55@gmail.com

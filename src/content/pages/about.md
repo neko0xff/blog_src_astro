@@ -57,7 +57,7 @@ seo:
     * 相關倉庫: https://github.com/neko0xff/blog_src_astro
 2. 加入的格式如下
       * 由於前端框架己用Astro重寫，請用JSON格式進行提交
-      * 相關文件: `src/pages/_myLinks.json`
+      * 相關文件: `public/src/pages/_myLinks.json`
   ```json=
      {
         "name": "neko0xff",
