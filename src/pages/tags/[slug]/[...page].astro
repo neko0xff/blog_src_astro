@@ -6,10 +6,10 @@ import Pagination from '../../../components/Pagination.astro';
 import PostPreview from '../../../components/PostPreview.astro';
 import Subscribe from '../../../components/Subscribe.astro';
 import siteConfig from '../../../data/site-config';
-import { sortItemsByDateDesc, getAllTags, getPostsByTag } from '../../../utils/data-utils';
+import { sortItemsBypublishDateDesc, getAllTags, getPostsByTag } from '../../../utils/data-utils';
 
 export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
-    const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
+    const posts = (await getCollection('blog')).sort(sortItemsBypublishDateDesc);
     const tags = getAllTags(posts);
 
     return tags.flatMap((tag) => {

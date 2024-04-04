@@ -8,25 +8,62 @@ seo:
 ![Alt text for image](../../assets/img/avatar.jpg)
 
 ## 自我介绍
-
 - 台灣人
-- 屬性: 什都摸且學不精的大學渣
+- 屬性
+  * 真人不實體出道
+  * 社交+口語障礙
+  * 是什都摸什都不精一些皮毛的喵。。。。
 - INTJ-T
 
-### 曾摸過的項目
+## 主要的SNS
+- [GitHub](https://github.com/neko0xff)
+- [E-Mail](mailto:chzang55@gmail.com)
+- [X/Twitter](https://twitter.com/neko_0xFF)
+- [YouTube](https://www.youtube.com/channel/UCfBR43eCo07mPWN6K-97TEA)
+- [Instagram](https://www.instagram.com/neko_0xff/)
+- [BlueSky](https://bsky.app/profile/neko0xff.bsky.social)
 
+## Blog組成架構
+- 框架: [Astro](https://docs.astro.build/zh-tw/concepts/why-astro/)
+- 主題: [astro-theme-akiba](https://github.com/mitian233/astro-theme-akiba)
+  * 維護者: [mitian233](https://github.com/mitian233)
+
+## 曾摸過的項目
 - 開發板
-  * Arduino
-    * UNO,Nano(atmega)
-    * ESP8266/32
-  * 8X51
+    * Arduino
+        * UNO,Nano(atmega)
+        * ESP8266/32
+    * 8X51
 - 前端
-  * Flutter
+    * Flutter
 - 後端
-  * Nodejs
+    * Nodejs
 - DataBase
-  * MariaDB
-  * M$-SQLServer
+    * MariaDB
+    * M$-SQLServer
 
-GitHub請[按此](https://github.com/neko0xff)
+## Side Project
+- 111專題: 空氣感測+本地SaaS
+  * [後端+硬體:Arduino+Nodejs+MariaDB](https://github.com/neko0xff/2023_schoolResearch_Server-HW)
+  * [前端:Flutter](https://github.com/neko0xff/2023_schoolResearch_ClientApp)
+- MessageBot
+  * Line
+    * [後端:Nodejs](https://github.com/neko0xff/2023_LineBot_Node) 
+  * Telegram
+    * [後端:Nodejs](https://github.com/neko0xff/2021_telegram_chatbot)
 
+## 如何加入友站鏈結
+1. 向該站管理者私信或者提出Issues到`neko0xff/blog_src_astro`
+    * 相關倉庫: https://github.com/neko0xff/blog_src_astro
+2. 加入的格式如下
+      * 由於前端框架己用Astro重寫，請用JSON格式進行提交
+      * 相關文件: `src/pages/_myLinks.json`
+  ```json=
+     {
+        "name": "neko0xff",
+        "site": "Neko0xff Tech Blog",
+        "siteURL": "https://neko0xff.github.io/",
+        "icon": "https://avatars.githubusercontent.com/u/54382007?v=4"
+     },
+  ```
+1. 管理員收到後，會自己加入提出者的友站鏈結

@@ -76,10 +76,6 @@ const siteConfig: SiteConfig = {
             text: 'Home',
             href: '/'
         },
-        // {
-        //     text: 'Projects',
-        //     href: '/projects'
-        // },
         {
             text: 'Blog',
             href: '/blog'
@@ -91,7 +87,11 @@ const siteConfig: SiteConfig = {
         {
             text: 'Link',
             href: '/link'
-        }
+        },
+        // {
+        //     text: 'Projects',
+        //     href: '/projects'
+        // },
     ],
     footerNavLinks: [
         {
@@ -154,7 +154,7 @@ const siteConfig: SiteConfig = {
     // },
     // subscribe: {
     //     title: 'Subscribe to Dante Newsletter',
-    //     text: 'One update per week. All the latest posts directly in your inbox.',
+    //     text: 'One uppublishDate per week. All the latest posts directly in your inbox.',
     //     formUrl: '#'
     // },
     postsPerPage: 8,

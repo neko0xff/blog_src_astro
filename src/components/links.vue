@@ -23,9 +23,6 @@ onMounted(() => {
     loadData();
 })
 
-
-
-
 </script>
 
 <template>
