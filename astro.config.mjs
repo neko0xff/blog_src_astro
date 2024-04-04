@@ -18,5 +18,6 @@ export default defineConfig({
     remarkPlugins: [proseRemarkPlugin, remarkMath],
     rehypePlugins: [rehypeKatex],
   },
+  output: 'static'
 
 });
