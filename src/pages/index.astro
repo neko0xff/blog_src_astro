@@ -6,14 +6,14 @@ import Hero from '../components/Hero.astro';
 import PostPreview from '../components/PostPreview.astro';
 import ProjectPreview from '../components/ProjectPreview.astro';
 import siteConfig from '../data/site-config';
-import { sortItemsBypublishDateDesc } from '../utils/data-utils';
+import { sortItemsByDateDesc } from '../utils/data-utils';
 import PersonalizedHero from '../components/PersonalizedHero.astro';
 import TypedJs from '../components/TypedJs.vue';
 
-const posts = (await getCollection('blog')).sort(sortItemsBypublishDateDesc);
+const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
 const featuredPosts = posts.filter(({ data }) => data.isFeatured);
 
-const projects = (await getCollection('projects')).sort(sortItemsBypublishDateDesc);
+const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
 const featuredProjects = projects.filter(({ data }) => data.isFeatured);
 ---
 
