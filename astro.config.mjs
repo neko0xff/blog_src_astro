@@ -10,8 +10,7 @@ import vue from "@astrojs/vue";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://neko0xff.github.io/',
-  base: 'https://github.com/neko0xff/neko0xff.github.io',
+  site: 'https://neko0xff.github.io',
   integrations: [mdx(), sitemap(), vue(), tailwind({
     applyBaseStyles: false
   })],
