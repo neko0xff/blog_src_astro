@@ -3,7 +3,6 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import { proseRemarkPlugin } from './prose-remark-plugin.mjs';
-import { SITE_URL, SITE_REPO } from './src/env.d.ts';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
@@ -11,8 +10,8 @@ import vue from "@astrojs/vue";
 
 // https://astro.build/config
 export default defineConfig({
-  site: SITE_URL,
-  base: SITE_REPO,
+  site: 'https://neko0xff.github.io/',
+  base: 'https://github.com/neko0xff/neko0xff.github.io',
   integrations: [mdx(), sitemap(), vue(), tailwind({
     applyBaseStyles: false
   })],
