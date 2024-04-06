@@ -6,7 +6,7 @@ tags:
 ---
 
 ## DataSheet
-![](https://i.imgur.com/udwjI57.png =50%x)
+![](https://i.imgur.com/udwjI57.png)
 
 <!--more-->
 

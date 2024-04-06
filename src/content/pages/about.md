@@ -5,8 +5,6 @@ seo:
   description: 了解更多關於我的消息
 ---
 
-![Alt text for image](../../assets/img/avatar.jpg)
-
 ## 自我介绍
 - 台灣人
 - 屬性
@@ -46,6 +44,30 @@ seo:
 - 111專題: 空氣感測+本地SaaS
   * [後端+硬體:Arduino+Nodejs+MariaDB](https://github.com/neko0xff/2023_schoolResearch_Server-HW)
   * [前端:Flutter](https://github.com/neko0xff/2023_schoolResearch_ClientApp)
+  * 流程圖
+    ```graphviz
+    digraph TD{
+       A[label="感測器"];
+       B[label="開發版"];
+       C[label="網際網路"];
+       D[label="後端-API"];
+       E[label="資料庫"];
+       F[label="前端-介面"];
+       G[label="使用者"];
+       H[label="裝置"];
+       I[label="開關"];
+       J[label="閘道器"]
+       A->B[label="輸出數值"];
+       B->J[label="  序列埠通訊"]
+       J->C[label="  WiFi或乙太網路"];
+       C->D[label="  插入"]; 
+       D->E[dir=both label="   執行對應動作"];
+       F->D[label=" 查詢/修改"];
+       G->H[label=" 操作"];
+       H->F[label=" 傳遞需求"];
+       I->B[dir=both label="   控制狀態"];
+    }
+    ```
 - MessageBot
   * Line
     * [後端:Nodejs](https://github.com/neko0xff/2023_LineBot_Node) 

@@ -120,5 +120,5 @@ Docker & VM 不只可單獨使用，也能互相搭配混合使用。
 - 在公有雲、傳統主機左右為難？【裸機服務不失為兩全其美選項】. (2022, March 1). 數位通國際. https://www.easpnet.com/blog/bare-metal-server/
 - 臺中市政府資訊中心. (2012, May). 雲端虛擬化平台於臺中市政府資訊中心之建置與應用-第295期(5月). 政府機關資訊通報. https://www.dgbas.gov.tw/public/Data/24301042171.pdf
 - 花小錢辦大事，打造一台虛空電腦——實戰服務器虛擬化. 無情開評. https://www.youtube.com/watch?v=h1oZnncNSRA
-  {%youtube h1oZnncNSRA %}
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/h1oZnncNSRA?si=Suw9MsDmZgCD07uU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 - 王宏仁. (2015, May 15). Docker掀起微服務革命，廠商搶進Container OS競賽. IThome. https://www.ithome.com.tw/news/95752
