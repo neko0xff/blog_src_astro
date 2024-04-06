@@ -8,7 +8,7 @@ import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 //import remarkgraphviz from 'remark-graphviz';
 import rehypeKatex from 'rehype-katex';
-import rehypeMermaid from 'rehype-mermaid';
+//import rehypeMermaid from 'rehype-mermaid';
 import rehypeStringify from "rehype-stringify";
 import redotGraphviz from "redot-parse";
 import redotStringify from "redot-stringify";
@@ -46,7 +46,7 @@ export default defineConfig({
     ],
     rehypePlugins: [
       rehypeKatex,
-      rehypeMermaid,
+      //rehypeMermaid,
       rehypeStringify
     ],
     syntaxHighlight: false,
