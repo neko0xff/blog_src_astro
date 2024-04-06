@@ -45,7 +45,7 @@ seo:
   * [後端+硬體:Arduino+Nodejs+MariaDB](https://github.com/neko0xff/2023_schoolResearch_Server-HW)
   * [前端:Flutter](https://github.com/neko0xff/2023_schoolResearch_ClientApp)
   * 流程圖
-    ```graphviz
+    ```dot
     digraph TD{
        A[label="感測器"];
        B[label="開發版"];

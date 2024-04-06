@@ -6,7 +6,7 @@ import { proseRemarkPlugin } from './prose-remark-plugin.mjs';
 import remarkMath from 'remark-math';
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
-//import remarkgraphviz from 'remark-graphviz';
+import remarkgraphviz from 'remark-graphviz';
 import rehypeKatex from 'rehype-katex';
 //import rehypeMermaid from 'rehype-mermaid';
 import rehypeStringify from "rehype-stringify";
@@ -42,7 +42,7 @@ export default defineConfig({
       remarkMath,
       remarkParse,
       remarkRehype,
-      //remarkgraphviz
+      remarkgraphviz
     ],
     rehypePlugins: [
       rehypeKatex,
