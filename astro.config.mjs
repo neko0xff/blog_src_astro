@@ -14,6 +14,7 @@ import rehypeMermaid from "rehype-mermaid";
 import rehypeGraphviz from "rehype-graphviz";
 import redotGraphviz from "redot-parse";
 import redotStringify from "redot-stringify";
+import rehypeRaw from 'rehype-raw';
 import robotsTxt from 'astro-robots-txt';
 import vue from "@astrojs/vue";
 import icon from "astro-icon";
@@ -50,6 +51,7 @@ export default defineConfig({
       remarkMermaid,
     ],
     rehypePlugins: [
+      rehypeRaw,
       rehypeKatex,
       rehypeMermaid,
       rehypeStringify,
