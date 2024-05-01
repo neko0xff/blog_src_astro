@@ -12,12 +12,12 @@ import rehypeKatex from 'rehype-katex';
 import rehypeStringify from "rehype-stringify";
 import rehypeMermaid from "rehype-mermaid";
 import rehypeGraphviz from "rehype-graphviz";
-import redotGraphviz from "redot-parse";
 import redotStringify from "redot-stringify";
 import rehypeRaw from 'rehype-raw';
 import robotsTxt from 'astro-robots-txt';
 import vue from "@astrojs/vue";
 import icon from "astro-icon";
+import { mermaid } from "./src/plugins/mermaid";
 
 // https://astro.build/config
 export default defineConfig({
@@ -40,7 +40,6 @@ export default defineConfig({
   markdown: {
     redotPlugins: [
       redotStringify,
-      redotGraphviz
     ],
     remarkPlugins: [
       proseRemarkPlugin,
@@ -49,6 +48,7 @@ export default defineConfig({
       remarkRehype,
       remarkgraphviz,
       remarkMermaid,
+      mermaid
     ],
     rehypePlugins: [
       rehypeRaw,
