@@ -7,13 +7,16 @@ import remarkMath from 'remark-math';
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import remarkgraphviz from 'remark-graphviz';
+import remarkMermaid from 'astro-diagram/remark-mermaid';
 import rehypeKatex from 'rehype-katex';
-//import rehypeMermaid from 'rehype-mermaid';
 import rehypeStringify from "rehype-stringify";
+import rehypeMermaid from "rehype-mermaid";
+import rehypeGraphviz from "rehype-graphviz";
 import redotGraphviz from "redot-parse";
 import redotStringify from "redot-stringify";
 import robotsTxt from 'astro-robots-txt';
 import vue from "@astrojs/vue";
+import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
@@ -23,7 +26,7 @@ export default defineConfig({
     sitemap(),
     vue(),
     tailwind({
-      applyBaseStyles: false
+      applyBaseStyles: true
     }),
     robotsTxt({
       sitemap: [
@@ -31,6 +34,7 @@ export default defineConfig({
         'https://neko0xff-github-io.vercel.app/sitemap-index.xml'
       ]
     }),
+    icon()
   ],
   markdown: {
     redotPlugins: [
@@ -42,12 +46,14 @@ export default defineConfig({
       remarkMath,
       remarkParse,
       remarkRehype,
-      remarkgraphviz
+      remarkgraphviz,
+      remarkMermaid,
     ],
     rehypePlugins: [
       rehypeKatex,
-      //rehypeMermaid,
-      rehypeStringify
+      rehypeMermaid,
+      rehypeStringify,
+      rehypeGraphviz
     ],
     syntaxHighlight: false,
   },

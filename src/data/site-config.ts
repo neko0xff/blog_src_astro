@@ -67,10 +67,6 @@ const siteConfig: SiteConfig = {
     author: "neko0xff",
     subtitle: "該Blog會存放自己寫的技術文章!",
     description: '該Blog會存放自己寫的技術文章!',
-    // image: {
-    //     src: '/dante-preview.jpg',
-    //     alt: 'Dante - Astro.js and Tailwind CSS theme'
-    // },
     headerNavLinks: [
         {
             text: 'Home',

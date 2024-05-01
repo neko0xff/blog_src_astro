@@ -6,6 +6,7 @@ const { date } = Astro.props;
 
 <time datetime={date.toISOString()}>
     {
+        //時區
         date.toLocaleDateString('zh-tw', {
             year: 'numeric',
             month: 'long',
