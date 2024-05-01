@@ -6,7 +6,7 @@
         "new": "node ./scripts/generate_new_post.js",
         "dev": "astro dev",
         "start": "astro dev",
-        "build": "npx playwright install --with-deps && astro build ",
+        "build": "npx playwright install  && astro build ",
         "build_other": "astro build",
         "preview": "astro preview",
         "astro": "astro"
