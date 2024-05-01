@@ -53,7 +53,7 @@ export default defineConfig({
     rehypePlugins: [
       rehypeRaw,
       rehypeKatex,
-      rehypeMermaid,
+      //rehypeMermaid,
       rehypeStringify,
       rehypeGraphviz
     ],
