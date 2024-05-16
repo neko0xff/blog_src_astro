@@ -21,7 +21,7 @@ import { mermaid } from "./src/plugins/mermaid";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://neko0xff-github-io.vercel.app',
+  site: 'https://neko0xff-blog.vercel.app',
   integrations: [
     mdx(),
     sitemap(),
@@ -32,7 +32,7 @@ export default defineConfig({
     robotsTxt({
       sitemap: [
         'https://neko0xff.github.io/sitemap-index.xml',
-        'https://neko0xff-github-io.vercel.app/sitemap-index.xml'
+        'https://neko0xff-blog.vercel.app/sitemap-index.xml'
       ]
     }),
     icon()
